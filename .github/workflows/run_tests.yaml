@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip
       - name: Run tests
-        run: run pytest -r w
+        run: pytest leap
